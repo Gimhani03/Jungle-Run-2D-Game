@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Jungle Run</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body onload="boxes(); initializeResponsiveValues(); initializeBoyPosition();" onkeyup="key(event);" class="b">
+
+    <div class="main" id="main">
+
+     <div class="s" id="score">0</div>
+     
+    <img src="Run (1).png" id="boy" class="boy"/>
+    </div>
+
+    <div id="end" class="end">
+       <div>Game Over</div>
+       <div>Your Score</div>
+       <div id="endscore">0</div>
+       <button onclick="reload();" class="btn">Try Again</button>   
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
