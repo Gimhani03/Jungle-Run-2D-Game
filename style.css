@@ -1,0 +1,178 @@
+.boy{
+    width: 22vw;
+    min-width: 200px;
+    max-width: 350px;
+    margin-top: 45vh;
+    position: absolute;
+    left: 5vw;
+    z-index: 10;
+}
+    
+    .main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Forest1.jpg");
+    position: absolute;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+    
+    .b{
+        margin:0px;
+    }
+    
+    .s{
+    position: absolute;
+    height: 5vh;
+    width: 8vw;
+    min-width: 80px;
+    background-color: rgb(199, 153, 68);
+    margin-top: 3vh;
+    margin-left: 2vw;
+    font-size: 3vh;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    z-index: 20;
+}
+    
+    .box{
+    position: absolute;    
+    height: 16vh;
+    width: 9vw;
+    min-height: 120px;
+    min-width: 120px;
+    max-height: 180px;
+    max-width: 180px;
+    background-image: url("My\ project-1.png");
+    margin-top: 63vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 5;
+}
+    
+    .end{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(199, 153, 68);
+    
+        font-size: 4vw; /* Responsive font size */
+        font-weight: bold;
+        font-family: "Arial";
+        color: rgb(18, 16, 16);
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        visibility: hidden;
+        z-index: 30;
+    }
+    
+    .btn{
+        width: 30vw; /* Responsive width */
+        min-width: 250px; /* Minimum width */
+        max-width: 480px; /* Maximum width */
+        height: 6vh; /* Responsive height */
+        min-height: 50px; /* Minimum height */
+        background-color: rgb(82, 56, 14);
+        font-size: 2.5vw; /* Responsive font size */
+        font-family: "Arial";
+        font-weight: bold;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 2vh;
+    }
+/* Media queries for better responsiveness */
+@media screen and (max-width: 768px) {
+    .boy {
+        width: 28vw;
+        min-width: 180px;
+        left: 3vw;
+    }
+    
+    .s {
+        font-size: 4vh;
+        width: 12vw;
+        min-width: 100px;
+    }
+    
+    .box {
+        height: 18vh;
+        width: 11vw;
+        min-height: 130px;
+        min-width: 130px;
+    }
+    
+    .end {
+        font-size: 6vw;
+    }
+    
+    .btn {
+        width: 60vw;
+        font-size: 4vw;
+        min-width: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .boy {
+        width: 32vw;
+        min-width: 160px;
+    }
+    
+    .s {
+        font-size: 5vh;
+        width: 15vw;
+    }
+    
+    .box {
+        height: 20vh;
+        width: 13vw;
+        min-height: 140px;
+        min-width: 140px;
+    }
+    
+    .end {
+        font-size: 8vw;
+    }
+    
+    .btn {
+        width: 80vw;
+        font-size: 5vw;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .boy {
+        max-width: 420px;
+    }
+    
+    .s {
+        max-width: 120px;
+        font-size: 2.5vh;
+    }
+    
+    .box {
+        max-height: 220px;
+        max-width: 220px;
+    }
+    
+    .end {
+        font-size: 3vw;
+    }
+    
+    .btn {
+        font-size: 1.5vw;
+    }
+}
